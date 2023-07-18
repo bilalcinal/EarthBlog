@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthBlog.Business", "EarthBlog.Business\EarthBlog.Business.csproj", "{4745E97E-9D66-41BA-868D-A0B189EB65D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthBlog.Core", "EarthBlog.Core\EarthBlog.Core.csproj", "{2432D999-A5AD-4DFD-9678-B1DE56E37236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthBlog.DataAccess", "EarthBlog.DataAccess\EarthBlog.DataAccess.csproj", "{73F81A5F-AF77-4B9E-9374-3F20317743A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthBlog.Entities", "EarthBlog.Entities\EarthBlog.Entities.csproj", "{2B453AFC-4F7F-4522-8630-3ED6AE389B72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EarthBlog.UI", "EarthBlog.UI\EarthBlog.UI.csproj", "{4DE71202-7403-4E9A-9670-77AACC122CAD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4745E97E-9D66-41BA-868D-A0B189EB65D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4745E97E-9D66-41BA-868D-A0B189EB65D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4745E97E-9D66-41BA-868D-A0B189EB65D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4745E97E-9D66-41BA-868D-A0B189EB65D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2432D999-A5AD-4DFD-9678-B1DE56E37236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2432D999-A5AD-4DFD-9678-B1DE56E37236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2432D999-A5AD-4DFD-9678-B1DE56E37236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2432D999-A5AD-4DFD-9678-B1DE56E37236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73F81A5F-AF77-4B9E-9374-3F20317743A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73F81A5F-AF77-4B9E-9374-3F20317743A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73F81A5F-AF77-4B9E-9374-3F20317743A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73F81A5F-AF77-4B9E-9374-3F20317743A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B453AFC-4F7F-4522-8630-3ED6AE389B72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B453AFC-4F7F-4522-8630-3ED6AE389B72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B453AFC-4F7F-4522-8630-3ED6AE389B72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B453AFC-4F7F-4522-8630-3ED6AE389B72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DE71202-7403-4E9A-9670-77AACC122CAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DE71202-7403-4E9A-9670-77AACC122CAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DE71202-7403-4E9A-9670-77AACC122CAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DE71202-7403-4E9A-9670-77AACC122CAD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
