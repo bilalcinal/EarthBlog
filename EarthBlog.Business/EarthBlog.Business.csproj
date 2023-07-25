@@ -6,4 +6,17 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="6.4.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.Cookies" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Hosting.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Features" Version="6.0.0-preview.4.21253.5" />
+  </ItemGroup>
+
+   <ItemGroup>
+    <ProjectReference Include="..\EarthBlog.Core\EarthBlog.Core.csproj" />
+    <ProjectReference Include="..\EarthBlog.DataAccess\EarthBlog.DataAccess.csproj" />
+    <ProjectReference Include="..\EarthBlog.Entities\EarthBlog.Entities.csproj" />
+  </ItemGroup>
+
 </Project>

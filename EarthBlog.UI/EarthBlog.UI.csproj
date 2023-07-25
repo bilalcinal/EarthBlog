@@ -2,8 +2,30 @@
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
+
+   <ItemGroup>
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="DNTCaptcha.Core" Version="4.3.0" />
+    <PackageReference Include="SixLabors.ImageSharp.Drawing" Version="1.0.0-beta15" />
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="6.0.10" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EarthBlog.Business\EarthBlog.Business.csproj" />
+    <ProjectReference Include="..\EarthBlog.Core\EarthBlog.Core.csproj" />
+    <ProjectReference Include="..\EarthBlog.DataAccess\EarthBlog.DataAccess.csproj" />
+    <ProjectReference Include="..\EarthBlog.Entities\EarthBlog.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Cms\Data\" />
+    <Folder Include="Areas\Cms\Models\" />
+    <Folder Include="Models\" />
+  </ItemGroup>
 
 </Project>
